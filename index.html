@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/topo.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/section.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
+    <link rel="stylesheet" href="assets/css/admin.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <title>Barber Style | Agende Agora!</title>
+</head>
+<body>
+
+    <header>
+        <div id="nav" class="nav-header">
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><h1>Barber <span class="span-logo">Style</span></h1></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#nav" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#section-header" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="admin.html" id="adm" class="nav-link">Admin</a></li>
+                </ul>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu-icon.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#section-header" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                <li class="nav-item"><a href="admin.html" id="adm" class="nav-link">Admin</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="">Agendar</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="inicio-header" class="inicio-header">
+
+        <h1 id="h1-inicio" class="h1-inicio">Barbearia exclusiva para quem aprecia<br>qualidade premium e aparência impecável.</h1>
+        <p id="p-inicio" class="p-inicio">"não é apenas um corte de cabelo, é uma experiência"</p>
+        <span id="button-inicio"><button class="button-inicio"><a  id="a-button" href="sistema.html">Agende O Seu Horário</a></button></span>
+    </div>
+    
+    </header>
+<main>
+     
+<section class="section-serviços">
+        <article>
+            <div id="section-header" class="section-header">
+                <h2 class="section-h2">Serviços</h2>
+            <p class="section-p">Nossa barbearia busca a Melhor Qualidade possível na execução de nossos serviços<br>e tudo por um preço que cabe no seu bolso.</p>
+            </div>
+
+            <div class="section-main">
+                <div class="service-section">
+                <img src="assets/img/cabelo-icon.png" alt="Icon Cabelo">
+                <h2>Cabelo</h2>
+                <p>R$ 40</p>
+                </div>
+                <div class="service-section">
+                    <img src="assets/img/bigode-icon.png" alt="Icon Bigode">
+                    <h2>Barba</h2>
+                    <p>R$ 30</p>
+                    </div>
+                    <div class="service-section">
+                        <img src="assets/img/cabeloebarba-icon.png" alt="Icon Homem">
+                        <h2>Corte + Barba</h2>
+                        <p>R$ 60</p>
+                        </div>
+                        <div class="service-section">
+                            <img src="assets/img/maquina-icon.png" alt="Icon Máquina de cortar cabelo">
+                            <h2>Corte a Máquina</h2>
+                            <p>R$ 20</p>
+                            </div>
+            </div>
+        </article>
+    </section>
+
+<section id="sobre" class="section-sobre">
+
+    <h2 class="section-title">Sobre Nós</h2>
+    <p class="section-about">Bem-vindo à Barber Style, onde a arte do barbear e o estilo se fundem para criar uma experiência única. Nossa equipe de barbeiros experientes está empenhada em oferecer cortes de cabelo e cuidados pessoais excepcionais, sempre com um toque contemporâneo. Na Barber Style, valorizamos a tradição, a precisão e a individualidade, proporcionando a você uma experiência de barbearia que reflete o seu estilo pessoal. Venha nos visitar e descubra o que significa verdadeiramente um corte com estilo.</p>
+    
+    <div class="sobre-section">
+    <div class="sobre-barbeiro">
+    <img class="barber-desktop" src="assets/img/icon-barber.png" alt="Foto barbeiro 1">
+    <img class="barber-mobile" src="assets/img/mobile-barber.png" alt="Foto barbeiro 2">
+     <h3>Pedro Lima</h3>
+     <p>5 anos de EXP</p>
+    </div>
+
+    <div class="sobre-barbeiro">
+        <img class="barber-desktop" src="assets/img/icon-barber.png" alt="Foto barbeiro 1">
+        <img class="barber-mobile" src="assets/img/mobile-barber.png" alt="Foto barbeiro 2">
+        <h3>Luiz Souza</h3>
+        <p>2 anos de EXP</p>
+       </div>
+    </div>
+
+    </section> 
+</main>
+
+    <!-- Botão Subir -->
+    <div id="botão-subir">
+        <img id="arrow" src="assets/img/seta.png" alt="Seta Pra Cima">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="info-footer">
+            <a href="index.html"><h4 class="footer-h3">Barber <span class="footer-span">Style</span></h4></a>
+            <p class="footer-p">Dedicamo-nos a criar mais do que cortes de cabelo.<br>Transformamos cada visita em uma experiência única, onde<br>a tradição e a modernidade se unem para criar o seu melhor visual.</p>
+        </div>
+        <div class="assinatura-footer">
+            <h4>Copyright © 2023 All rights reserved | Barberia Lotus website developed by <a class="copy-footer" href="https://github.com/KevinTereza" target="_blank">Kevin Tereza</a></h4>
+        </div>
+    </footer>
+    
+     <!-- SCRIPT -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/topo.js"></script>
+    <script src="assets/js/scrollreveal.js"></script>
+
+</body>
+</html>

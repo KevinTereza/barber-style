@@ -1,0 +1,80 @@
+.section-sobre {
+    background-color: #000;
+    padding-bottom: 20px;
+}
+@media only screen and (min-width: 1000px) {
+    .section-sobre{
+    height: 93vh;
+    }
+
+}
+.section-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+.section-about {
+    color: #808080;
+    text-align: center;
+    margin: 30px 60px 20px 60px;
+    font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .section-about{
+    font-size: 1.1rem;
+    margin: 30px 30px 20px 30px;
+}
+}
+
+.sobre-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+
+}
+.sobre-barbeiro img {
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+.sobre-barbeiro h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.15rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.sobre-barbeiro p {
+    color: #808080;
+    font-weight: 400;
+    margin-top: 7px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.barber-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .sobre-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .barber-desktop {
+        display: none;
+    }
+    .barber-mobile {
+        display: block;
+    }
+    .sobre-section {
+        margin-top: 1.5rem;
+    }
+    .sobre-barbeiro p {
+        margin-top: 1px;
+    }
+}
