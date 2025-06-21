@@ -15,7 +15,7 @@ Landing page de uma barbearia fictícia, desenvolvida como um dos meus primeiros
 
 ## 🔗 Link para o Deploy
 
-Você pode ver a versão final do projeto em [Aqui](https://calc-js-iota.vercel.app/).
+Você pode ver a versão final do projeto em [Aqui](https://barber-style-liard.vercel.app/).
 
 ## 🔧 Como Executar o Projeto
 
